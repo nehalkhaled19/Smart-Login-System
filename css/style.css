@@ -1,0 +1,38 @@
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: top;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+    background:#011226
+}
+h1 {
+    color: #0dcaf0;
+}
+button:hover {
+    color: white !important;
+}
+.btn-outline-info:focus {
+    box-shadow: rgba(23, 162, 184, 0.5) 0px 0px 0px 0.2rem;
+}
+a:hover {
+    text-decoration: underline !important;
+}
+::placeholder{
+    color: rgb(182, 182, 182)!important;
+}
+.form-control:focus{
+    border-color: rgb(128, 189, 255);
+    box-shadow: 0 0 0 transparent !important;
+} 
+nav button{
+    color: #929a9f !important;
+}
+#username{
+    font-size: 65px;
+}

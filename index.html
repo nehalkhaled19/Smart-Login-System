@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Titillium+Web&display=swap" rel="stylesheet">
+  <title>Login</title>
+</head>
+
+<body>
+  <section class="container py-5">
+    <div class="row justify-content-center m-1">
+      <div class="col-md-8 text-center group p-5">
+   
+  
+      <h1>Smart Login System</h1>
+      <input id="signinName" class="form-control my-3 bg-transparent text-white " placeholder="Enter your name"
+        type="text">
+      <div class="alert text-start alert-danger" style="display: none;" id="validName" role="alert">
+        Please enter a valid name.
+      </div>
+      <input id="signinEmail" class="form-control my-3 bg-transparent text-white " placeholder="Enter your email"
+        type="email">
+      <div class="alert text-start alert-danger " style="display: none;" id="validEmail" role="alert">
+        Please enter a valid email address. </div>
+      <input id="signinPassword" class="form-control my-3 bg-transparent text-white " placeholder="Enter your password"
+        type="password">
+      <div class="alert text-start alert-danger" style="display: none;" id="validPass" role="alert">
+        Password must contain at least five characters and at least one number.
+      </div>
+      <p id="incorrect" style="display: none;"><span class="text-danger text-center ">All inputs is required</span></p>
+      <p id="exists" style="display: none;"><span class="text-danger m-auto my-3">email already exists</span></p>
+      <a id="toLogin" ><button  id="signUp"  class="btn btn-outline-info w-100 my-3">Sign up</button></a>
+      
+      <p class="text-white">You have an account? <a class="text-white text-decoration-none" href="Login.html">Signin</a>
+      </p>
+    </div> 
+  </div>
+
+
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

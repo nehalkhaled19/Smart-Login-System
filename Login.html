@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Titillium+Web&display=swap" rel="stylesheet">
+  <title>Login</title>
+</head>
+
+<body>
+  <section class="container py-5">
+    <div class="row justify-content-center m-1">
+      <div class="col-md-8 text-center group p-5">
+   
+      <h1>Smart Login System</h1>
+      <input id="loginEmail" class="form-control my-3 bg-transparent text-white " placeholder="Enter your email" type="text">
+      <input id="loginPassword" class="form-control my-3 bg-transparent text-white " placeholder="Enter your password" type="password">
+      <p id="incorrect" style="display: none;"><span class="text-danger text-center">All inputs is required</span></p>
+      <p id="incorrectInfro" style="display: none;"><span class="text-danger m-3">Incorrect email or password</span></p>
+      <a id="Login" onclick="log()" ><button   class="btn btn-outline-info w-100 my-3">Login</button></a>
+      <p class="text-white">Don’t have an account? <a class="text-white text-decoration-none" href="index.html">Sign Up</a></p>
+    </div>
+    </div>
+    
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
