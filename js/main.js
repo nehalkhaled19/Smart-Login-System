@@ -38,7 +38,6 @@ if (signUp != null) {
                 }
                 list.push(user)
                 localStorage.setItem("users", JSON.stringify(list))
-                console.log(list);
                 let toLogin = document.getElementById("toLogin")
                 toLogin.href = "Login.html"
             }
@@ -121,12 +120,11 @@ function log() {
     }
 }
 
-console.log(list);
 
 // WELCOME
 if (welcome != null) {
     var x = localStorage.getItem('sessionUsername')
-    console.log(x);
+   
     if (x) {
         welcome.innerHTML = "Welcome " + x
     }
