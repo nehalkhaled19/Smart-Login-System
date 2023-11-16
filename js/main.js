@@ -131,5 +131,8 @@ if (welcome != null) {
 }
 // for logout
 function logout() {
-    localStorage.removeItem('sessionUsername')
+    localStorage.clear('sessionUsername')
+    localStorage.clear('users')
+
+
 }
